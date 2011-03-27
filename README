@@ -1,0 +1,9 @@
+Facebuby is a simple Facebook class for Ruby.
+
+Require the fb.rb file, and enter your Facebook Application ID, Facebook Secret, and your return URL.
+
+boolean = FB.valid_facebook_signature?(signed_request)
+
+unpacked_data = FB.signed_request(signed_request)
+
+user_graph_data = FB.user_info(code)
